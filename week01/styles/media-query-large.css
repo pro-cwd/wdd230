@@ -1,0 +1,11 @@
+@media (min-width: 500px) {
+    header {
+      background-color: black; /* Black background color */
+      color: white; /* White text color */
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* Two columns of equal size */
+    }
+  }
