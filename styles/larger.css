@@ -1,0 +1,12 @@
+@media screen and (max-width: 576px){
+    img {
+        width: 100px;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        padding: 7px;
+    }
+}
