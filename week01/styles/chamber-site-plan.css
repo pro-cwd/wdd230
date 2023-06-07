@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+:root {
+    --primary-color: #00D084;
+    --secundary-color: #3a5683;
+    --accent1-color: #2708a0;
+    --accent2-color: #62b6cb;
+    --pharagraph-on-color: #cae9ff;
+    --dark: #343a40;
+    --white: #fafafa;
+    font-family: 'Open Sans', sans-serif;
+}
+/* CSS styles for the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* CSS styles for the main sections */
+main section {
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+main h3 {
+    font-size: 16px;
+    margin: 0;
+}
+
+main p {
+    margin-bottom: 10px;
+}
+
+main img {
+    width: 100px;
+    height: 100px;
+}
+
+/* CSS styles for the form */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* CSS styles for the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    color: #666;
+}
+/* CSS styles to escenarios container */
+#esce-secc {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: justify;
+    max-width: 1280px;
+    margin: auto;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Color scheme */
+  #color-container {
+    max-width: 1280px;
+    margin: 3em auto;
+
+
+  }
+
+  #color-container h3 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    white-space-collapse: collapse;
+    text-wrap: wrap;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    border-color: gray;
+    font-variant: normal;
+}
+
+.colors td {
+    width: 25%;
+    height: 3em;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+.primary {
+    background-color: var(--primary-color);
+}
+.secondary {
+    background-color: var(--secundary-color);
+}
+.accent1 {
+    background-color: var(--accent1-color);
+}
+.accent2 {
+    background-color: var(--accent2-color);
+}
+
+/* Wireframe section */
+
+#wire-content {
+    max-width: 1280px;
+    margin: 3em auto;
+}
+
+#wire-content h3 {
+    text-align: center;
+    font-size: xx-large;
+}
+#wire-content img {
+    max-width: 100%;
+    display: block;
+}
+
+#colored-paragraph {
+    height: 100px;
+    background-color: var(--primary-color);
+}
+#colored-paragraph p {
+    color: var(--white);
+}
+
+/* menu example */
+
+#header-example {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--secundary-color);
+}
+
+#header-example h3 {
+    color: var(--white);
+}
+#header-example nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#header-example nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
+#header-example nav a:hover {
+    background-color: var(--primary-color);
+}
