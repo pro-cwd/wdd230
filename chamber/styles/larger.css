@@ -1,0 +1,8 @@
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .home-left-area {
+        width: 420px;
+    }
+    .alerts {
+        padding-top: 26px;
+    }
+}
