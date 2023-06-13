@@ -10,7 +10,6 @@
     --white: #fafafa;
     font-family: 'Open Sans', sans-serif;
 }
-<<<<<<< HEAD
 
 *, ::after, ::before {
     box-sizing: border-box;
@@ -30,8 +29,6 @@ html {
     -webkit-tap-highlight-color: transparent;
 }
 
-=======
->>>>>>> 2798ec3467df2dea5bbe66685a8a0fed7002fc31
 .home-area {
     position: relative;
 }
@@ -58,28 +55,20 @@ html {
     background-size: cover;
 }
 
-<<<<<<< HEAD
 .home-large-logo {
-=======
-.home-logo {
->>>>>>> 2798ec3467df2dea5bbe66685a8a0fed7002fc31
     margin-left: 40px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-<<<<<<< HEAD
 .home-large-logo img {
     width: 320px !important;
 }
 
-
-=======
 .home-logo img {
     width: 320px !important;
 }
 
->>>>>>> 2798ec3467df2dea5bbe66685a8a0fed7002fc31
 img {
     width: 100%;
     vertical-align: middle;
@@ -105,14 +94,11 @@ a {
     color: #136ba9;
 }
 
-<<<<<<< HEAD
 a:visited {
     text-decoration: none;
     outline: none;
 }
 
-=======
->>>>>>> 2798ec3467df2dea5bbe66685a8a0fed7002fc31
 .home-left-menu {
     text-align: center;
 }
@@ -139,7 +125,6 @@ ul {
     text-decoration: none;
     outline: none;
 }
-<<<<<<< HEAD
 
 /* hero image */
 
@@ -155,14 +140,14 @@ ul {
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
+}
+
+@keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
-  }
+}
 
-  .text {
+.text {
     color: #f2f2f2;
     font-size: 15px;
     padding: 8px 12px;
@@ -170,9 +155,9 @@ ul {
     bottom: 8px;
     width: 100%;
     text-align: center;
-  }
+}
 
-  .menu-area {
+.menu-area {
     background: rgb(98 182 203 / 0.9);
     padding: 15px 0px;
     margin-top: 40px;
@@ -458,5 +443,3 @@ a:not([href]):not([class]) {
     padding: 0px 25px;
     border-right: 1px dotted #fff;
 }
-=======
->>>>>>> 2798ec3467df2dea5bbe66685a8a0fed7002fc31

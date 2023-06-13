@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @media (min-width: 576px) {
     .container {
         max-width: 540px;
@@ -55,8 +54,7 @@
         max-width: 75%;
     }
 }
-=======
->>>>>>> 2798ec3467df2dea5bbe66685a8a0fed7002fc31
+
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .home-left-area {
         width: 420px;
@@ -64,7 +62,7 @@
     .alerts {
         padding-top: 26px;
     }
-<<<<<<< HEAD
+
     .menu-section li a.economic {
         margin-left: 5px;
     }
@@ -79,7 +77,3 @@
         width: 18%;
     }
 }
-
-=======
-}
->>>>>>> 2798ec3467df2dea5bbe66685a8a0fed7002fc31
