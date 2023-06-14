@@ -4,7 +4,7 @@
 }
 :root {
   --primary-color: #4DCAF0;
-  --secondary-color: #333333;
+  --secundary-color: #333333;
   --terciary-color: white;
   --accent1-color: #245E70;
   --accent2-color: #3C9FBD;
@@ -161,7 +161,7 @@ main h2 {
 }
 
 .card h3 {
-  color: #fff;
+  color: var(--terciary-color);
   padding: 10px 0;
 }
 
@@ -179,7 +179,7 @@ main h2 {
 }
 
 .card span a:nth-of-type(n) {
-  color: var(--primary-color);
+  color: var(--secundary-color);
 }
 
 footer {
