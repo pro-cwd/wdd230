@@ -4,20 +4,13 @@
 }
 :root {
   --primary-color: #4DCAF0;
-  --secondary-color: #333333;
-  --terciary-color: white;
+  --secondary-color: #212121;
+  --terciary-color: #ffffff;
   --accent1-color: #245E70;
   --accent2-color: #3C9FBD;
+  --background-color: #333333;
   --paragraph-font: Lato, Helvetica, sans-serif;
-  --headline-color-on-white: #396E94;
-  --headline-color-on-color: white;
-  --paragraph-color-on-white: #396E94;
-  --paragraph-color-on-color: white;
-  --paragraph-background-color: #396E94;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: #343434;
-  --nav-hover-background-color: #396E94;
+  --hover-color: #888888;
 }
 
 body {
@@ -45,7 +38,7 @@ img {
   border: none;
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
-  color: #212121;
+  color: var(--secondary-color);
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -82,7 +75,7 @@ header {
 }
 
 nav {
-  background-color: #fff;
+  background-color: var(--terciary-color);
   grid-column: 1 / 3;
 }
 
@@ -95,7 +88,7 @@ nav ul {
 }
 
 nav #active {
-  background-color: #333;
+  background-color: var(--background-color);
   text-align: center;
 }
 
@@ -113,13 +106,13 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: var(--secondary-color);
   padding: 5px;
   transition: background-color 0.3s ease;
 }
 
 nav ul li a:hover {
-  background-color: #333;
+  background-color: var(--background-color);
   color: #fff;
   height: auto;
 }
@@ -141,7 +134,7 @@ main h2 {
 .card {
   width: 350px;
   max-width: 90%;
-  background-color: #fff;
+  background-color: var(--terciary-color);
   margin-bottom: 20px;
   margin-right: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -155,7 +148,7 @@ main h2 {
 .card div {
   width: 100%;
   height: 2.5em;
-  background-color: #333;
+  background-color: var(--background-color);
   border-radius: 4px 4px 0 0;
   text-align: center;
 }
@@ -179,18 +172,18 @@ main h2 {
 }
 
 .card span a:nth-of-type(n) {
-  color: #212121;
+  color: var(--secondary-color);
 }
 
 footer {
   grid-column: 1 / 3;
   text-align: center;
-  background-color: #333;
+  background-color: var(--background-color);
   padding: 10px;
 }
 
 footer p {
-  color: #fff;
+  color: var(--terciary-color);
 }
 
 /* Typography */
@@ -218,11 +211,11 @@ p {
 }
 
 a {
-  color: #333;
+  color: var(--secondary-color);
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #888;
+  color: var(--hover-color);
 }
 
