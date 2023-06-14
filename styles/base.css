@@ -45,7 +45,7 @@ img {
   border: none;
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
-  color: var(--secondary-color);
+  color: #212121;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
