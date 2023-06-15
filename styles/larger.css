@@ -34,5 +34,41 @@
     #header-text h1 {
         text-align: left;
         /* padding-left: 1em; */
-      }
+    }
+    /* hamburger */
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 200px;
+        width: 100%;
+        gap: 0;
+        transition: 0.3s;
+        background-color: #ffffff;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
 }

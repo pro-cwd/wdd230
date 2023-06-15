@@ -116,6 +116,27 @@ nav ul li a:hover {
   color: #fff;
   height: auto;
 }
+/* hamburguer */
+.nav-link {
+  transition: 0.7s ease;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px 5px 5px 80%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--background-color);
+}
+
+/* final hamburguer */
 
 main {
   margin: auto;
@@ -217,5 +238,13 @@ a {
 
 a:hover {
   color: var(--hover-color);
+}
+
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
 }
 
