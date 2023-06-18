@@ -3,7 +3,7 @@
 :root {
     --primary-color: #00D084;
     --secundary-color: #3a5683;
-    --accent1-color: #2708a0;
+    --accent1-color: rgb(39, 8, 160);
     --accent2-color: #62b6cb;
     --pharagraph-on-color: #cae9ff;
     --dark: #343a40;
@@ -175,7 +175,7 @@ ul {
 }
 
 .menu-area {
-    background: rgb(98 182 203 / 0.9);
+    background: rgb(39 8 160 / 0.9);
     padding: 15px 0px;
     margin-top: 40px;
 }
