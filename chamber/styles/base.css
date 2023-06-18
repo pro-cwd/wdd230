@@ -413,14 +413,6 @@ ul.submenu, .responMenu ul.submenu {
     box-shadow: 0 1px 0 rgba(0,0,0,.25);
 }
 
-.slicknav_btn {
-    position: relative;
-    display: block;
-    vertical-align: middle;
-    float: right;
-    padding: .438em .625em;
-    line-height: 1.125em;
-}
 .slicknav_btn, .slicknav_nav .slicknav_item {
     cursor: pointer;
 }
