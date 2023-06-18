@@ -136,7 +136,7 @@ ul {
     display: inline-block;
     font-size: 14px;
     padding: 4px 8px;
-    color: #4296d2;
+    color: var(--accent1-color);
     margin-left: 5px;
     border-radius: 4px;
     text-decoration: none;
@@ -323,6 +323,7 @@ ul.submenu, .responMenu ul.submenu {
 .header-right-info {
     text-align: right;
     margin-top: 20px;
+    background-color: rgba(0,0,0,.45);
 }
 
 .header-right-info span {
@@ -582,7 +583,7 @@ a:not([href]):not([class]) {
 }
 
 .section-title h6 {
-    color: #707070;
+    color: var(--dark);
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -596,7 +597,7 @@ a:not([href]):not([class]) {
 }
 
 .section-title h5 {
-    color: var(--primary-color);
+    color: var(--dark);
     font-size: 16px;
     border-top: 1px solid #a7b1b8;
     border-bottom: 1px solid #a7b1b8;
@@ -688,27 +689,6 @@ iframe {
     border-radius: 10px;
     padding: 16px;
 }
-.caroufredsel_wrapper {
-    display: block;
-    text-align: left;
-    float: none;
-    position: relative;
-    inset: auto;
-    z-index: auto;
-    width: 323px;
-    height: 474px;
-    margin: 0px;
-    overflow: hidden;
-}
-.caroufredsel_wrapper {
-    text-align: left;
-    float: none;
-    position: absolute;
-    inset: 0px auto auto 0px;
-    margin: 0px;
-    height: 790px;
-    width: 323px;
-}
 
 .wli-event-item-list {
     text-align: left;
@@ -724,10 +704,10 @@ iframe {
     border-bottom: 1px dotted #707070;
     margin-bottom: 5px;
 }
-.event-txt span, .event-facebook-feed span {
+.event-txt span {
     font-weight: 600;
     font-size: 14px;
-    color: #707070;
+    color: #707070 !important;
 }
 .clearfix::after {
     display: block;
