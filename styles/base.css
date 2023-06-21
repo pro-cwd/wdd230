@@ -237,7 +237,7 @@ a {
 }
 
 a:hover {
-  color: var(--hover-color);
+  color: var(--primary-color);
 }
 
 #mode {
