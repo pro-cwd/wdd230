@@ -260,3 +260,12 @@ a:hover {
   'opsz' 48
 }
 
+/* hero image */
+.hero picture {
+  width: 100%;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
