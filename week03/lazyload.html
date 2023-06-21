@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is  WDD 230 - Web Frontend Development I. In terms of site performance and search engine optimization, our document loading goal is to be ready for action in a few seconds upon a request by the user. The issue is that we have many requests and payloads within a document itself, including images, that increase the load time to much more than the ideal target.">
+    <meta name="author" content="Omar Meza">
+  <title>Lazy Load Images</title>
+  
+  <link rel="stylesheet" href="styles/lazyload.css">
+</head>
+
+<body>
+  <header>
+    <h1>Lazy Load Images</h1>
+  </header>
+
+  <main>
+    <picture>
+      <img src="//placeimg.com/400/600/tech" loading="lazy" width="400" height="600" alt="Image 1">
+    </picture>
+    <picture>
+      <img src="//placeimg.com/400/600/people" loading="lazy" width="400" height="600" alt="Image 2">
+    </picture>
+    <picture>
+      <img src="//placeimg.com/400/600/nature" loading="lazy" width="400" height="600" alt="Image 3">
+    </picture>
+    <picture>
+      <img src="//placeimg.com/400/600/arch" loading="lazy" width="400" height="600" alt="Image 4">
+    </picture>
+    <picture>
+      <img src="//placeimg.com/400/600/animals" loading="lazy" width="400" height="600" alt="Image 5">
+    </picture>
+    <picture>
+      <img src="//placeimg.com/400/600/tech" loading="lazy" width="400" height="600" alt="Image 6">
+    </picture>
+  </main>
+
+  <footer>
+    &copy; 2023 Omar Meza | BYU-Idaho | Last modified:
+    <p id="lastModified"></p>
+  </footer>
+  <script src="scripts/lazyload.js"></script>
+</body>
+
+</html>

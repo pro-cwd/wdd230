@@ -237,7 +237,7 @@ ul {
 }
 
 .menu-section li a.economic span {
-    background: #56b358;
+    background: #347435;
     padding: 5px 25px;
     line-height: 23px;
     display: block;
@@ -413,6 +413,10 @@ ul.submenu, .responMenu ul.submenu {
     box-shadow: 0 1px 0 rgba(0,0,0,.25);
 }
 
+.slicknav_btn .slicknav_icon-bar+.slicknav_icon-bar {
+    margin-top: .188em;
+}
+
 .slicknav_btn, .slicknav_nav .slicknav_item {
     cursor: pointer;
 }
@@ -424,14 +428,20 @@ ul.submenu, .responMenu ul.submenu {
     font-weight: 700;
     text-shadow: 0 1px 3px #000;
 }
-.slicknav_menu .slicknav_no-text {
-    margin: 0;
-}
 .slicknav_menu .slicknav_icon {
     float: left;
     width: 1.125em;
     height: .875em;
     margin: .188em 0 0 .438em;
+    transition: 0.2s 0.1s;
+}
+
+.slicknav_icon:hover {
+    transform: rotate(360deg);
+}
+
+.slicknav_menu .slicknav_no-text {
+    margin: 0;
 }
 .slicknav_nav {
     clear: both;
@@ -444,6 +454,37 @@ ul.submenu, .responMenu ul.submenu {
     overflow: hidden;
     padding: 0;
 }
+
+.slicknav_nav .slicknav_item a {
+    display: inline;
+}
+
+.slicknav_nav .slicknav_item a, .slicknav_nav .slicknav_parent-link a {
+    padding: 0;
+    margin: 0;
+}
+
+.slicknav_nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.slicknav_hidden {
+    display: none;
+}
+
+.slicknav_icon-bar:nth-child(1).animado {
+    transform: rotate(-45deg) translate(-3px, 4px);
+}
+
+.slicknav_icon-bar:nth-child(2).animado {
+    opacity: 0;
+}
+
+.slicknav_icon-bar:nth-child(3).animado {
+    transform: rotate(45deg) translate(-3px, -4px);
+}
+
 /* end movile area */
 
 .share.login {
