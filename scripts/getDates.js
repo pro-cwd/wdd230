@@ -36,3 +36,29 @@ modeButton.addEventListener('click', () => {
 		body.style.transition = '2s';
 	}
 })
+
+// coutner
+
+// Check if localStorage is supported
+if (typeof(Storage) !== "undefined") {
+	// Check if the counter value is stored in localStorage
+	if (localStorage.counter) {
+	  // If the value exists, update the counter element with its value
+	  document.getElementById("counter").textContent = localStorage.counter;
+	} else {
+	  // If the value doesn't exist, initialize the counter in localStorage with 0
+	  localStorage.counter = 0;
+	}
+
+	// Increment the counter value and update the counter element
+	function incrementCounter() {
+	  localStorage.counter++;
+	  document.getElementById("counter").textContent = localStorage.counter;
+	}
+
+	// Call the incrementCounter function whenever the page is visited
+	incrementCounter();
+  } else {
+	// If localStorage is not supported, display an error message
+	document.getElementById("counter").textContent = "localStorage is not supported.";
+  }
