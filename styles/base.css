@@ -270,6 +270,19 @@ a:hover {
   height: auto;
 }
 
+.hero picture {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+ picture #picture-txt {
+  position: absolute;
+  top: 50px;
+  left: 16px;
+  color: #fff;
+}
+
 /* google map */
 
 .map-container {
