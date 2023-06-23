@@ -3,6 +3,17 @@
         max-width: 540px;
     }
 }
+  /* Mobile view */
+  @media (max-width: 600px) {
+    .container-sidebar {
+      grid-template-columns: 1fr;
+    }
+  
+    .sidebar {
+      margin-bottom: 20px;
+    }
+  }
+
 @media (min-width: 768px) {
     .container {
         max-width: 720px;
@@ -109,6 +120,9 @@
     .activado {
         display: block;
         animation: 350ms ease-in-out both;
+    }
+    #image-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
     
 }

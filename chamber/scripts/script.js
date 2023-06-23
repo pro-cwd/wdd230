@@ -12,3 +12,27 @@ hamburger.addEventListener("click", () => {
   navMenu.classList.toggle("activado")
   sticks.forEach(child => {child.classList.toggle("animado")})
 })
+
+// main sidebar discover
+document.addEventListener('DOMContentLoaded', function() {
+  let sidebarContent = document.getElementById('sidebar-content');
+  let lastVisit = localStorage.getItem('lastVisit');
+
+  if (!lastVisit) {
+    sidebarContent.textContent = 'Welcome! Let us know if you have any questions.';
+  } else {
+    let currentTime = new Date();
+    let previousVisit = new Date(lastVisit);
+    let timeDiff = currentTime - previousVisit;
+    let daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+
+    if (daysDiff === 0) {
+      sidebarContent.textContent = 'Back so soon! Awesome!';
+    } else {
+      let message = 'You last visited ' + daysDiff + ' day' + (daysDiff === 1 ? '' : 's') + ' ago.';
+      sidebarContent.textContent = message;
+    }
+  }
+  // Store the current visit date in localStorage
+  localStorage.setItem('lastVisit', new Date());
+});
