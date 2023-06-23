@@ -35,4 +35,35 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   // Store the current visit date in localStorage
   localStorage.setItem('lastVisit', new Date());
+
+  
+  // generate calendar///////////////
+
+
+  let calendarEl = document.getElementById('calendar');
+  let calendar = new FullCalendar.Calendar(calendarEl, {
+    initialView: 'dayGridMonth',
+    initialDate: '2023-06-01',
+  });
+  calendar.render();
+
+    // // Get the calendar element
+    // const calendar = document.getElementById("calendar");
+  
+    // // Set the date to June 2023
+    // const date = new Date(2023, 5, 1); // Month is zero-based
+  
+    // // Format the date as desired
+    // const month = date.toLocaleString("default", { month: "long" });
+    // const year = date.getFullYear();
+
+    // console.log("aqui indica el mes", month)
+    // console.log("aqui indica el ano", year)
+  
+    // // Display the date in the calendar card
+    // calendar.textContent  = `Welcome ${month} ${year}`;
 });
+
+
+
+

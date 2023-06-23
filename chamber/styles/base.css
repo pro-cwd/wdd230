@@ -776,4 +776,47 @@ iframe {
     height: auto;
   }
 
+
+.card {
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .card h3 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    margin-bottom: 0;
+  }
+  
+  #calendar {
+    height: 200px;
+    border: 1px solid #ccc;
+  }
+
+  .grid-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+.grid-card h2 {
+    text-align: center;
+}
+
+  .grid-card1{
+    grid-column: 1/2;
+  }
+
+  .grid-card2 {
+    grid-column: 2/3;
+  }
+
+  /* .grid-card3 {
+    grid-column:;
+  } */
+
+
 /* main container discover ends */
