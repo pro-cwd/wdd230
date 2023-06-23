@@ -35,34 +35,46 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   // Store the current visit date in localStorage
   localStorage.setItem('lastVisit', new Date());
+});
 
-  
-  // generate calendar///////////////
+// Function to get the name of the month
+function getMonthName(month) {
+  const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  return monthNames[month];
+}
 
-
-  let calendarEl = document.getElementById('calendar');
-  let calendar = new FullCalendar.Calendar(calendarEl, {
-    initialView: 'dayGridMonth',
-    initialDate: '2023-06-01',
+document.addEventListener('DOMContentLoaded', function() {
+  var calendarEl = document.getElementById('calendar');
+  var calendar = new FullCalendar.Calendar(calendarEl, {
+    initialView: 'dayGridMonth'
   });
   calendar.render();
-
-    // // Get the calendar element
-    // const calendar = document.getElementById("calendar");
-  
-    // // Set the date to June 2023
-    // const date = new Date(2023, 5, 1); // Month is zero-based
-  
-    // // Format the date as desired
-    // const month = date.toLocaleString("default", { month: "long" });
-    // const year = date.getFullYear();
-
-    // console.log("aqui indica el mes", month)
-    // console.log("aqui indica el ano", year)
-  
-    // // Display the date in the calendar card
-    // calendar.textContent  = `Welcome ${month} ${year}`;
 });
+
+
+// // Function to create a calendar card
+// function createCalendarCard(year, month) {
+//   const container = document.getElementById('calendar');
+//   const card = document.createElement('div');
+//   card.classList.add('calendar-card');
+
+//   const header = document.createElement('h2');
+//   header.textContent = getMonthName(month) + ' ' + year;
+//   card.appendChild(header);
+
+//   // ... Add your calendar content here ...
+
+//   container.appendChild(card);
+// }
+// // Get the current date
+// const currentDate = new Date();
+// const currentYear = currentDate.getFullYear();
+// const currentMonth = currentDate.getMonth();
+
+// // Call the createCalendarCard function with the current year and month
+// createCalendarCard(currentYear, currentMonth);
+
+
 
 
 
