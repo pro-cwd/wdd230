@@ -759,6 +759,10 @@ iframe {
     grid-template-columns: 300px 1fr;
     gap: 20px;
   }
+
+  .container-sidebar section {
+    padding-bottom: 2em;
+  }
   
   .sidebar {
     background-color: #f1f1f1;
@@ -834,6 +838,11 @@ iframe {
 
 .grid-card2 {
     grid-column: 2/3;
+}
+
+
+.column div span {
+    padding: 1em;
 }
 
 
