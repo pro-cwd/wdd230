@@ -282,6 +282,8 @@ a:hover {
   left: 16px;
   color: #fff;
   text-shadow: black 0.1em 0.1em 0.2em;
+  background-color: var(--background-color);
+  padding: 1em;
 }
 
 /* google map */
