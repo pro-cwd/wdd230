@@ -264,19 +264,22 @@ a:hover {
 .hero picture {
   width: 100%;
 }
+#hero {
+  position: relative;
+}
 
-.hero img {
+#hero img {
   width: 100%;
   height: auto;
 }
 
-.hero picture {
-  position: relative;
+#hero picture {
+  /* position: relative; */
   text-align: center;
   color: white;
 }
 
- picture #picture-txt {
+ #hero #picture-txt {
   position: absolute;
   top: 50px;
   left: 16px;
