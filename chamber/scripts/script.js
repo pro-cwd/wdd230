@@ -52,28 +52,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-// // Function to create a calendar card
-// function createCalendarCard(year, month) {
-//   const container = document.getElementById('calendar');
-//   const card = document.createElement('div');
-//   card.classList.add('calendar-card');
-
-//   const header = document.createElement('h2');
-//   header.textContent = getMonthName(month) + ' ' + year;
-//   card.appendChild(header);
-
-//   // ... Add your calendar content here ...
-
-//   container.appendChild(card);
-// }
-// // Get the current date
-// const currentDate = new Date();
-// const currentYear = currentDate.getFullYear();
-// const currentMonth = currentDate.getMonth();
-
-// // Call the createCalendarCard function with the current year and month
-// createCalendarCard(currentYear, currentMonth);
-
 
 
 
