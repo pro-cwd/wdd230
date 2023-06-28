@@ -1,0 +1,32 @@
+table {
+    width: 500px;
+    max-width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  thead th {
+    padding: 10px;
+    text-align: center;
+
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tbody td {
+    padding: 10px;
+    text-align: center;
+  }
+  
