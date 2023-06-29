@@ -1,33 +1,28 @@
-    const form = document.getElementById("myForm");
-    const username = document.getElementById("username");
-    const password = document.getElementById("password");
-    const confirmPassword = document.getElementById("confirmPassword");
-    const email = document.getElementById("email");
+    
     // Get the range input and rating label
     const ratingInput = document.getElementById('rating');
     const ratingLabel = document.getElementById('ratingLabel');
+    const kp1 = document.querySelector("#password");
+    const kp2 = document.querySelector("#confirmPassword");
+    const message = document.querySelector("#formmessage");
 
-    
-    form.addEventListener("submit", function (event) {
-        event.preventDefault();
-        
-        if (password.value !== confirmPassword.value) {
-            alert("Passwords do not match. Please try again.");
-            username.value = "";
-            password.value = "";
-            confirmPassword.value = "";
-            username.focus();
-        } else {
-            const emailPattern = /^[a-zA-Z0-9._%+-]+@byui\.edu$/;
-            if (!emailPattern.test(email.value)) {
-                alert("Invalid email address. Please enter a valid BYU-I email address.");
-                email.value = "";
-                email.focus();
-            } else {
-                form.submit();
-            }
-        }
-    });
+kp2.addEventListener("focusout", checkSame);
+
+// This should be refactored.
+function checkSame() {
+	if (kp1.value !== kp2.value) {
+		message.textContent = "❗Key passwords DO NOT MATCH!";
+		message.style.visibility = "show";
+		kp2.style.backgroundColor = "#fff0f3";
+		kp2.value = "";
+		kp2.focus();
+	} else {
+		message.style.display = "none";
+		kp2.style.backgroundColor = "#fff";
+		kp2.style.color = "#000";
+	}
+}
+
     
     // Update the rating label when the range input value changes
     ratingInput.addEventListener('input', function() {
