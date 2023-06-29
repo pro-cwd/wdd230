@@ -1,3 +1,4 @@
+
 /* Reset default styles */
 * {
     box-sizing: border-box;
@@ -9,8 +10,11 @@
   --accent1-color: #245E70;
   --accent2-color: #3C9FBD;
   --background-color: #333333;
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --paragraph-font: 'Work Sans', sans-serif, Helvetica ;
   --hover-color: #888888;
+  --form-label-color: #333;
+  --form-input-color: #777;
+  --form-error-color: red;
 }
 
 body {
