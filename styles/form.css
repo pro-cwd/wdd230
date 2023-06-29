@@ -51,7 +51,7 @@ form label.top input:required:valid {
 }
 
 form {
-    width: 400px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
     border-radius: 5px;
