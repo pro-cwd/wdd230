@@ -13,7 +13,7 @@
     function checkSame() {
         if (kp1.value !== kp2.value) {
             message.textContent = "❗Key passwords DO NOT MATCH!";
-            message.style.visibility = "show";
+            message.style.display = "block";
             kp2.style.backgroundColor = "#fff0f3";
             kp2.value = "";
             kp2.focus();
