@@ -64,14 +64,6 @@
                         <a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;">
                             <span class="slicknav_arrow">►</span>
                         </a>
-                        <ul class="drop-menu slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
-                            <li><a href="#" role="menuitem" tabindex="-1">Caminatas</a></li>
-                            <li><a href="#" role="menuitem" tabindex="-1">Deporte extremo</a></li>
-                            <li><a href="#" role="menuitem" tabindex="-1">Agroturismo</a></li>
-                            <li><a href="#" role="menuitem" tabindex="-1">Ferias / festivales</a></li>
-                            <li><a href="#" role="menuitem" tabindex="-1">Arte &amp; <br>Entretenimiento</a></li>
-                            <li><a href="#" role="menuitem" tabindex="-1">Excursiones</a></li>
-                        </ul>
                     </li>
                     <li><a href="#" role="menuitem" tabindex="-1">Donde comer</a></li>
                     <li><a href="#" role="menuitem" tabindex="-1">Donde comprar</a></li>
@@ -161,94 +153,43 @@
     </header>
     <!-- home header ends -->
     <main>
-        <!-- home welcome start -->
-        <section id="wel-cont" class="global-section-logo beforeAfter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-9 text-center">
-                        <div class="section-title">
-                            <h6>BIENVENIDOS AL</h6>
-                            <h2>Cantón la Maná Provincia del Cotopaxi</h2>
-                            <h5>Conectando negocios, Creando Oportunidades</h5>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="wel-cont-weather">
-                                    <h4>DOMINGO 12</h4>
-                                    <span class="material-symbols-outlined">partly_cloudy_day</span>
-                                    <h2>29°</h2>
-                                </div>
-                                <video width="420" height="244" controls>
-                                    <source src="https://youtu.be/zVp4LDIFZ3A" type="video/mp4">
-                                  Your browser does not support the video tag.
-                                  </video>
-                            </div>
-                            <div class="col-lg-6 text-left">
-                                <div class="section-text">
-                                    <p>Este sitio ha sido creado con el objetivo de proporcionar un alcance amplio y accesible a la comunidad empresarial local y a todos aquellos interesados en obtener información y servicios relacionados con el comercio en la región. El propósito principal de este sitio web es ofrecer una plataforma integral que promueva el crecimiento económico, fomente la colaboración entre las empresas y brinde recursos y asesoramiento para impulsar el éxito empresarial en La Maná.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="section-logo-right">
-                            <a href="#">
-                                <img src="images/iso-logo.webp" alt="iso logo camara">
-                            </a>
-                            <a href="#">
-                                <img src="images/portada-guia-lamana.webp" alt="guia de la comunidad">
-                            </a>
-                        </div>
-                    </div>
-                    <div>
-                    </div>
-                    <button>Desarrollo Económico</button>
+        
+        <form action="thankyou.html" method="get">
+            <h1>Membership Form</h1>
+            <fieldset>
+                <legend>Applicant <span><small>(* is required)</small></span></legend>
+                <div class="grid-set">
+                    <label class="top form-label">Applicant's First Name *:<br><input type="text" id="first-name" name="first-name" required></label>
+                    <label class="top form-label">Applicant's Last Name *:<br><input type="text" id="last-name" name="last-name" required></label>
+                    <label class="top form-label">Applicant's Position *:<br><input type="text" id="position" name="position" pattern="[A-Za-z -]{7,}" required></label>
+                    <label class="top form-label">Email Address *:<br><input type="email" id="email" name="email" required placeholder="example@example.com"></label>
+                    <label class="top form-label">Mobile Phone Number *:<br><input type="tel" id="phone" name="phone" required></label>
+                    <label class="top form-label">Business/Organization Name *:<br><input type="text" id="organization" name="organization" required></label>
                 </div>
-            </div>
-        </section>
-        <!-- home welcome ends -->
-        <!-- home event start -->
-        <section id="event-cont" class="home-event-area">
-            <div class="container">
-                <div class="row">
-                    <!-- <div class="event-title"><h2>Calendario de actividades</h2></div> -->
-                    <div class="col-lg-2 col-md-4">
-                        <div class="event-left-img">
-                            <img src="images/event-img-1.webp" alt="paisaje cascadas el zapanal">
-                            <img src="images/event-img-2.webp" alt="hosteria carlos patricio">
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-8">
-                        <div class="event-text">
-                            <span style="color: white; font-size: 18px; background-color: black;">Calendario de Eventos</span>
-                            <div class="event-txt-bg">
-                                <div class="wli-events-widget" data-wli-widget="event-block" data-wli-get="10" data-wli-scrolling="true" data-wli-show="6">
+            </fieldset>
+            <fieldset>
+                <legend>Membership Level and Description</legend>
+                <div class="grid-set">
+                    <label for="membership-level" class="sbs form-label">Membership Level:<br>
+                        <select id="membership-level" name="membership-level">
+                            <option value="NP">NP Membership (Free)</option>
+                            <option value="Bronze">Bronze Membership</option>
+                            <option value="Silver">Silver Membership</option>
+                            <option value="Gold">Gold Membership</option>
+                        </select>
+                    </label>
+                    <label for="description" class="sbs form-label">Business/Organization Description:<br><textarea id="description" name="description"></textarea><br></label>
+                </div>
+            </fieldset>
 
-                                    <div class="caroufredsel_wrapper" style="display: block; text-align: left; float: none; position: relative; inset: auto; z-index: auto; width: 331px; height: 474px; margin: 0px; overflow: hidden;"><div class="wli-event-item-list wli-widget" data-wli-role="scrolling" style="text-align: left; float: none; position: absolute; inset: 0px auto auto 0px; margin: 0px; height: 790px; width: 331px;"><article class="wli-event-item-V2 wli-event-item-1 clearfix"><a class="wli-event-link wliComponent" href="https://members.habershamchamber.com/events/eventdetail.aspx?eventid=10566" target="_parent"><div class="wli-event-details-V2">
-                                        <div class="wli-event-name"><span>Envento de Solsticio</span></div>
-                                        <p class="wli-event-datetime"><span class="wli-event-date">Jun 17, 2023</span><span class="wli-event-time">10:00 AM - 12:00 PM</span> </p>
-                                    </div></a></article><article class="wli-event-item-V2 wli-event-item-2 clearfix"><a class="wli-event-link wliComponent" href="https://members.habershamchamber.com/events/eventdetail.aspx?eventid=10567" target="_parent"><div class="wli-event-details-V2">
-                                        <div class="wli-event-name"><span>Campamento para la juventud</span></div>
-                                        <p class="wli-event-datetime"><span class="wli-event-date">Jul 03, 2023</span><span class="wli-event-time">8:00 AM - 5: PM</span> </p>
-                                    </div></a></article></div></div>
-                                    <a class="wli-view-all wliComponent" href="#">Ver todos los eventos</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-8">
-                        <div class="event-facebook-feed">
-                            <span style="margin-bottom: 20px; display: block; color: white; font-size: 18px; background-color: black;">Facebook Feed</span>
-                            <div class="fb-page" data-href="https://www.facebook.com/codicewd" data-tabs="timeline" data-width="375" data-height="585" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/codicewd" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/codicewd">Codice WD</a></blockquote></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- home event ends -->
-        <section id="spotlights">
-            
-        </section>
+            <input type="hidden" id="timestamp" name="timestamp" value="">
+            <input type="submit" value="Send Membership" class="submitBtn">
+        </form>
+    
+        <div id="membership-benefits">
+        <!-- Display membership level benefits here (in larger views) -->
+        </div>
+      
     </main>
     <footer>
         <div class="footer-area">
@@ -261,7 +202,7 @@
                                     <li><a href="#">Inicio</a></li>
                                     <li><a href="#">Directorio</a></li>
                                     <li><a href="#">Eventos</a></li>
-                                    <li><a href="#">Desarrollo Económico</a></li>
+                                    <li><a href="#">Únete</a></li>
                                 </ul>
                             </div>
                         </div>

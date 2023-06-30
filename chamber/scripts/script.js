@@ -51,6 +51,11 @@ document.addEventListener('DOMContentLoaded', function() {
   calendar.render();
 });
 
+// Automatically set the current timestamp value
+let timestampField = document.getElementById('timestamp');
+let currentTimestamp = new Date().toISOString();
+timestampField.value = currentTimestamp;
+
 
 
 
