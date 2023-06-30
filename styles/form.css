@@ -1,3 +1,8 @@
+:root {
+  --form-label-color: #212121;
+  --form-input-color: #555;
+  --form-error-color: #9c2c13;
+}
 
 form fieldset {
     margin: 2rem 0;
@@ -6,7 +11,7 @@ form fieldset {
     padding: .5rem 2%;
 }
 form legend {
-    color: #212121;
+    color: var(--form-label-color);
     margin: 0 1rem;
     padding: 0 .5rem;
 }
@@ -23,7 +28,7 @@ form label.top input, form label.top select {
     border: solid 1px #999;
     border-radius: 4px;
     padding: .75rem;
-    color: #555;
+    color: var(--form-input-color);
     width: 100%;
     max-width: 20rem;
     background-color: rgba(0, 0, 0, 0.1);
@@ -116,5 +121,5 @@ form {
     display: none;
     margin: 10px;
     padding: 0.5rem;
-    color: red;
+    color: var(--form-error-color);
   }

@@ -55,7 +55,7 @@
                 <div id="formmessage"></div>
                 <fieldset>
                     <legend>Register</legend>
-                        <label class="top">Username* <input type="text" id="username" name="username" title="Complete this field" required></label>
+                        <label class="top">Username* <input type="text" id="username" name="username" pattern="[A-Za-z0-9]{8,}"  title="at least eight (8) characters alpha-numeric" required></label>
                         <label class="top">Password* <input type="password" id="password" name="password" pattern="[A-Za-z0-9]{8,}"  title="at least eight (8) characters alpha-numeric" required></label>
                         <label class="top">Confirm Password* <input type="password" id="confirmPassword" name="confirmPassword" title="Fill out the field above first" required></label>
                         <p class="error-message" id="passwordError"></p>
