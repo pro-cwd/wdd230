@@ -79,7 +79,11 @@
                 </section>
                 <section class="card card-second">
                     <div><h3>Information</h3></div>
-                    <p>Weather: placeholder</p>
+                    <section class="weather-line">
+                        <img id= "weather-icon" src="" alt="">
+                        <p><span id="current-temp"></span></p>
+                        <p id="weather"></p>
+                    </section>
                     <p>Number of visits: <span id="counter">0</span></p>
                     <!-- Add information placeholders here -->
                 </section>
@@ -94,5 +98,6 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
