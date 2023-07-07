@@ -4,12 +4,12 @@
         "week": "Week 1",
         "links": [
           {
-            "url": "learning_activity_1.html",
-            "title": "Introduction to Programming"
+            "url": "week01/holygrail.html",
+            "title": "Layout"
           },
           {
-            "url": "learning_activity_2.html",
-            "title": "Variables and Data Types"
+            "url": "week01/media-query.html",
+            "title": "Media Query"
           }
         ]
       },
@@ -17,12 +17,16 @@
         "week": "Week 2",
         "links": [
           {
-            "url": "learning_activity_3.html",
-            "title": "Conditional Statements"
+            "url": "week02/design.html",
+            "title": "Design principles"
           },
           {
-            "url": "learning_activity_4.html",
-            "title": "Loops and Iteration"
+            "url": "https://pro-cwd.github.io/wdd230/week02/bom.html",
+            "title": "DOM manipulation"
+          },
+          {
+            "url": "https://codepen.io/pro-cwd/pen/eYQpbqq",
+            "title": "HAM Pen"
           }
         ]
       },
@@ -30,12 +34,20 @@
         "week": "Week 3",
         "links": [
           {
-            "url": "learning_activity_5.html",
-            "title": "Functions and Modules"
+            "url": "week03/images/landscape.webp",
+            "title": "WebP"
           },
           {
-            "url": "learning_activity_6.html",
-            "title": "Arrays and Lists"
+            "url": "week03/lazyload.html",
+            "title": "Lazyload"
+          },
+          {
+            "url": "week03/responsive-images.html",
+            "title": "images:srcset"
+          },
+          {
+            "url": "week03/bom.html",
+            "title": "Web storage API"
           }
         ]
       },
@@ -43,12 +55,20 @@
         "week": "Week 4",
         "links": [
           {
-            "url": "learning_activity_7.html",
-            "title": "Dictionaries and Sets"
+            "url": "https://codepen.io/pro-cwd/pen/WNYpQOd?editors=1100",
+            "title": "CodePen"
           },
           {
-            "url": "learning_activity_8.html",
-            "title": "File Handling"
+            "url": "https://www.w3schools.com/css/exercise.asp?filename=exercise_combinators4",
+            "title": "Combinator exercises"
+          },
+          {
+            "url": "week04/tablebuild.html",
+            "title": "Tables for data"
+          },
+          {
+            "url": "week04/form-start/index.html",
+            "title": "HTML form"
           }
         ]
       },
@@ -56,12 +76,20 @@
         "week": "Week 5",
         "links": [
           {
-            "url": "learning_activity_9.html",
-            "title": "Object-Oriented Programming"
+            "url": "https://codepen.io/odmeza/pen/gOQxXGN",
+            "title": "CodePen"
           },
           {
-            "url": "learning_activity_10.html",
-            "title": "Error Handling and Debugging"
+            "url": "week05/new-ward-members.json",
+            "title": "JSON"
+          },
+          {
+            "url": "week05/prophets.html",
+            "title": "Prophets API"
+          },
+          {
+            "url": "week05/weather.html",
+            "title": "Fetch API"
           }
         ]
       }

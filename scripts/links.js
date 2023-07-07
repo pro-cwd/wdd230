@@ -19,10 +19,11 @@ async function getLinks(linksURL) {
         let anchor = document.createElement('a');
         let week = document.createElement('h4');
         let title = document.createElement('h4');
-  
-        week.textContent = `${weeks}: `;
-        title.textContent = `${weeks}: |`;
-        anchor.setAttribute('href', weeks[1].url);
+        let icon = data.weeks[0].links[0].url;
+
+        week.textContent = `${data.weeks[0].week}: `;
+        title.textContent = `${data.weeks[0].links[0].title}: |`;
+        anchor.setAttribute('href', icon);
   
 
         li.appendChild(week);
