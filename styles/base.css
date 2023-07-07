@@ -235,12 +235,12 @@ p {
   margin: 10px 0;
 }
 
-a {
+a > h4 {
   color: var(--secondary-color);
   transition: color 0.3s ease;
 }
 
-a:hover {
+a:hover h4 {
   color: var(--primary-color);
 }
 
@@ -317,4 +317,9 @@ a:hover {
 }
 #weather-icon {
   width: 50px;
+}
+
+#links li{
+  display: flex;
+  flex-direction: row;
 }

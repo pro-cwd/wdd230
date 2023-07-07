@@ -22,14 +22,42 @@ async function getLinks(linksURL) {
         let icon = data.weeks[0].links[0].url;
 
         week.textContent = `${data.weeks[0].week}: `;
-        title.textContent = `${data.weeks[0].links[0].title}: |`;
+        title.textContent = ` ${data.weeks[0].links[0].title}: |`;
         anchor.setAttribute('href', icon);
   
-
-        li.appendChild(week);
-        li.appendChild(anchor);
-        anchor.appendChild(title);
-  
+        // Iterate over each week object in the weeks array
+        for (var i = 0; i < data.weeks.length; i++) {
+          let wee = data.weeks[i];
+          week.textContent = `${wee.week}: `;
+          // Generate the HTML for the week heading
+          li.appendChild(week);
+          
+          // Generate the HTML for the links within the week
+          for (var j = 0; j < wee.links.length; j++) {
+            let link = wee.links[j];
+            let lnk = link.url;
+            console.log(link)
+            
+            title.textContent = ` ${link.title} |`;
+            anchor.setAttribute('href', lnk);
+            li.appendChild(anchor);
+            anchor.appendChild(title);
+          }
+        }
         links.appendChild(li);
+  
     }); // end of arrow function and forEach loop
   }
+
+
+
+  // let icon = data.weeks[0].links[0].url;
+
+  // week.textContent = `${data.weeks[0].week}: `;
+  // title.textContent = ` ${data.weeks[0].links[0].title}: |`;
+  // anchor.setAttribute('href', icon);
+
+
+  // li.appendChild(week);
+  // li.appendChild(anchor);
+  // anchor.appendChild(title);
