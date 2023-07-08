@@ -1,4 +1,4 @@
-const url = '';
+const url = 'https://pro-cwd.github.io/wdd230/chamber/data/members-directoy.json';
 const cards = document.querySelector('#cards');
 
 async function getProphetData(url) {
@@ -10,8 +10,8 @@ async function getProphetData(url) {
 
 getProphetData(url);
 
-const displayProphets = (prophets) => {
-  prophets.forEach((prophet) => {
+const displayProphets = (members) => {
+  members.forEach((member) => {
     // Create elements to add to the div.cards element
     let card = document.createElement('section');
     let fullName = document.createElement('h2');
@@ -20,14 +20,14 @@ const displayProphets = (prophets) => {
     let portrait = document.createElement('img');
 
     // Build the h2 content out to show the prophet's full name
-    fullName.textContent = `${prophet.name} ${prophet.lastname}`;
+    fullName.textContent = `${member.name} ${member.lastname}`;
     //Build the h3 content out to show the birthdays
-    birthDays.textContent = `Date of Birth: ${prophet.birthdate}`;
+    birthDays.textContent = `Date of Birth: ${member.birthdate}`;
     //Build the h3 content out to show the place both
-    birthPlace.textContent = `Place of Birth: ${prophet.birthplace}`;
+    birthPlace.textContent = `Place of Birth: ${member.birthplace}`;
     // Build the image portrait by setting all the relevant attributes
-    portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
+    portrait.setAttribute('src', member.imageurl);
+    portrait.setAttribute('alt', `logotype of ${member.name}`);
     portrait.setAttribute('loading', 'lazy');
     portrait.setAttribute('width', '340');
     portrait.setAttribute('height', '440');
