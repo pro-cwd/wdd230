@@ -318,8 +318,27 @@ a:hover h4 {
 #weather-icon {
   width: 50px;
 }
-
-#links li{
+/* links dinamically */
+#links li {
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#links li a {
+  padding: 0 8px;
+  border-right: 1px solid #000;
+  margin: 4px 0;
+}
+
+#links li a {
+  color: var(--secondary-color);
+  transition: color 0.3s ease;
+}
+
+#links li a:hover {
+  color: #3C9FBD;
+}
+#links li a:last-of-type {
+  border-right: 0px;
 }
