@@ -9,68 +9,52 @@
         "image": "https://www.pichincha.com/portal/Portals/0/MainPichincha.svg?ver=OOcC4szKWdNYc_KRtHahvw%3d%3d"
         },
         {
-        "name": "Banco Pichincha",
-        "address": "Av. 29 de Mayo y Velasco Ibarra",
-        "phone": " 1234567890",
-        "website": " www.bancopichincha.com",
-        "slogan": " En confianza",
-        "image": "https://www.pichincha.com/portal/Portals/0/MainPichincha.svg?ver=OOcC4szKWdNYc_KRtHahvw%3d%3d"
+        "name": "Splendor",
+        "address": "La Maná Km 5 1/2 vía La Maná",
+        "phone": " 593 2373-2020",
+        "website": " www.aguasplendor.com.ec",
+        "slogan": " El agua viva mas pura del planeta",
+        "image": "https://pro-cwd.github.io/wdd230/chamber/images/agua-splendor-logo.webp"
         },
         {
-        "name": "Banco Pichincha",
-        "address": "Av. 29 de Mayo y Velasco Ibarra",
-        "phone": " 1234567890",
-        "website": " www.bancopichincha.com",
-        "slogan": " En confianza",
-        "image": "https://www.pichincha.com/portal/Portals/0/MainPichincha.svg?ver=OOcC4szKWdNYc_KRtHahvw%3d%3d"
+        "name": "Reptil Expediciones La Maná Ecuador",
+        "address": "27 de Noviembre y Eugenio Espejo",
+        "phone": " 593981138053",
+        "website": "www.reptilexpediciones.com",
+        "slogan": "Sigue explorando",
+        "image": "https://pro-cwd.github.io/wdd230/chamber/images/reptil-expediciones.webp"
         },
         {
-        "name": "Banco Pichincha",
-        "address": "Av. 29 de Mayo y Velasco Ibarra",
-        "phone": " 1234567890",
-        "website": " www.bancopichincha.com",
-        "slogan": " En confianza",
-        "image": "https://www.pichincha.com/portal/Portals/0/MainPichincha.svg?ver=OOcC4szKWdNYc_KRtHahvw%3d%3d"
+        "name": "Artesanias de Bambú",
+        "address": "27 de Noviembre y 24 de Mayo",
+        "phone": " 593 99 095 8645",
+        "website": " artesaniasbambu.com.ec",
+        "slogan": "Decoraciones en bambu",
+        "image": "https://pro-cwd.github.io/wdd230/chamber/images/arte-bambu.webp"
         },
         {
-        "name": "Banco Pichincha",
-        "address": "Av. 29 de Mayo y Velasco Ibarra",
+        "name": "Cabaña Resort",
+        "address": "Av. 29 de Mayo y Camino de Luz",
         "phone": " 1234567890",
-        "website": " www.bancopichincha.com",
-        "slogan": " En confianza",
-        "image": "https://www.pichincha.com/portal/Portals/0/MainPichincha.svg?ver=OOcC4szKWdNYc_KRtHahvw%3d%3d"
+        "website": " www.canaresort.com",
+        "slogan": " La vida es bella",
+        "image": "https://pro-cwd.github.io/wdd230/chamber/images/agua-cabana-resort.webp"
         },
         {
-        "name": "Banco Pichincha",
+        "name": "Tecnonet",
         "address": "Av. 29 de Mayo y Velasco Ibarra",
-        "phone": " 1234567890",
-        "website": " www.bancopichincha.com",
-        "slogan": " En confianza",
-        "image": "https://www.pichincha.com/portal/Portals/0/MainPichincha.svg?ver=OOcC4szKWdNYc_KRtHahvw%3d%3d"
+        "phone": " 09765468998",
+        "website": " www.tecnonet.com",
+        "slogan": " tecnologia a tu alcance",
+        "image": "https://pro-cwd.github.io/wdd230/chamber/images/tecnonet.webp"
         },
         {
-        "name": "Banco Pichincha",
-        "address": "Av. 29 de Mayo y Velasco Ibarra",
+        "name": "Rapiraptor Cia. Ltda.",
+        "address": "Bolivar y Galo Plaza",
         "phone": " 1234567890",
-        "website": " www.bancopichincha.com",
-        "slogan": " En confianza",
-        "image": "https://www.pichincha.com/portal/Portals/0/MainPichincha.svg?ver=OOcC4szKWdNYc_KRtHahvw%3d%3d"
-        },
-        {
-        "name": "Banco Pichincha",
-        "address": "Av. 29 de Mayo y Velasco Ibarra",
-        "phone": " 1234567890",
-        "website": " www.bancopichincha.com",
-        "slogan": " En confianza",
-        "image": "https://www.pichincha.com/portal/Portals/0/MainPichincha.svg?ver=OOcC4szKWdNYc_KRtHahvw%3d%3d"
-        },
-        {
-        "name": "Banco Pichincha",
-        "address": "Av. 29 de Mayo y Velasco Ibarra",
-        "phone": " 1234567890",
-        "website": " www.bancopichincha.com",
-        "slogan": " En confianza",
-        "image": "https://www.pichincha.com/portal/Portals/0/MainPichincha.svg?ver=OOcC4szKWdNYc_KRtHahvw%3d%3d"
+        "website": " www.rapiraptor.com",
+        "slogan": "Mas rapido imposible",
+        "image": "https://pro-cwd.github.io/wdd230/chamber/images/rapido-logo.webp"
         }
     ]
 }

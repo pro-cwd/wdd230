@@ -795,10 +795,6 @@ iframe {
 	margin: 0.1rem;
 }
 
-.grid h3 {
-	font-family: "Caveat", cursive;
-}
-
 .list {
 	display: flex;
 	flex-direction: column;
@@ -821,7 +817,6 @@ iframe {
 
 .list section h3 {
 	font-size: 1rem;
-	font-family: Roboto, Helvetica, sans-serif;
 }
 
 .list section:nth-child(even) {
@@ -838,7 +833,6 @@ iframe {
 }
 
 .main-grid article section a {
-	font-family: "Roboto", Arial, sans-serif;
 	font-size: 0.85rem;
 	color: navy;
 	letter-spacing: 1.1pt;
