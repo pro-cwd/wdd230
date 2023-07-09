@@ -13,11 +13,11 @@
         "address": "La Maná Km 5 1/2 vía La Maná",
         "phone": " 593 2373-2020",
         "website": " www.aguasplendor.com.ec",
-        "slogan": " El agua viva mas pura del planeta",
+        "slogan": "agua viva",
         "image": "https://pro-cwd.github.io/wdd230/chamber/images/agua-splendor-logo.webp"
         },
         {
-        "name": "Reptil Expediciones La Maná Ecuador",
+        "name": "Reptil Expediciones",
         "address": "27 de Noviembre y Eugenio Espejo",
         "phone": " 593981138053",
         "website": "www.reptilexpediciones.com",
@@ -38,7 +38,7 @@
         "phone": " 1234567890",
         "website": " www.canaresort.com",
         "slogan": " La vida es bella",
-        "image": "https://pro-cwd.github.io/wdd230/chamber/images/agua-cabana-resort.webp"
+        "image": "https://pro-cwd.github.io/wdd230/chamber/images/cabana-resort.webp"
         },
         {
         "name": "Tecnonet",
