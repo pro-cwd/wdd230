@@ -38,7 +38,7 @@ window.addEventListener('DOMContentLoaded', () => {
   
     const forecastContainer = document.getElementById('forecast-container');
   
-    fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}&cnt=1&*3`)
+    fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}&cnt=1`)
         .then(response => response.json())
         .then(data => {
         const forecastList = data.list;
@@ -84,5 +84,7 @@ window.addEventListener('DOMContentLoaded', () => {
         forecastContainer.textContent = 'An error occurred while fetching the forecast.';
       });
   });
+
+  
   
 

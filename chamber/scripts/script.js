@@ -56,6 +56,24 @@ let timestampField = document.getElementById('timestamp');
 let currentTimestamp = new Date().toISOString();
 timestampField.value = currentTimestamp;
 
+//BANNER MON - WED- FRI
+
+document.addEventListener("DOMContentLoaded", function() {
+  var banner = document.getElementById("banner");
+  var closeButton = document.getElementById("close-btn");
+  
+  // Check if current day is Monday, Tuesday, or Wednesday
+  var currentDate = new Date();
+  var currentDay = currentDate.getDay();
+  if (currentDay >= 1 && currentDay <= 3) {
+    banner.style.display = "block";
+  }
+  
+  // Close the banner when the close button is clicked
+  closeButton.addEventListener("click", function() {
+    banner.style.display = "none";
+  });
+});
 
 
 
