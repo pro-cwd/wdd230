@@ -676,6 +676,7 @@ a:not([href]):not([class]) {
 
 .wel-cont-weather {
     background-color: var(--white);
+    
 }
 
 iframe {
@@ -1068,4 +1069,53 @@ button, select {
 legend>span {
     color: var(--primary-color);
 }
+
+/* forecast */
+
+.wel-cont-weather h4 {
+    color: #333;
+
+  }
+  
+  .forecast-day {
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+  
+  .forecast-day h2 {
+    margin: 5px 0;
+  }
+  
+  .forecast-day p {
+    margin: 0;
+    font-weight: bold;
+  }
+
+  #weather-icon {
+      max-width: 100px;
+    }
+    
+.wel-cont-weather p {
+    margin-top: 0;
+}
+#forecast-container {
+    align-items: first baseline;
+}
+
+.wel-cont-child-v {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wel-cont-child {
+    display: flex;
+    flex-direction: column;
+}
+
+
 
