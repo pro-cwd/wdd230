@@ -780,7 +780,7 @@ iframe {
 
 .grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	grid-gap: 30px;
 	align-items: center;
 }
@@ -791,7 +791,6 @@ iframe {
 
 .grid img {
 	border: 1px solid #fff;
-	box-shadow: 0 0 10px #333;
 }
 
 .grid section > * {
@@ -808,7 +807,6 @@ section {
     padding: 0.5rem;
     background-color: #fafafa;
     padding: 1em;
-    margin: 1em;
     border-radius: 15px;
 }
 
