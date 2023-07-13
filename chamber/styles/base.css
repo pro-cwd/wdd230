@@ -676,7 +676,9 @@ a:not([href]):not([class]) {
 
 .wel-cont-weather {
     background-color: var(--white);
-    
+    border-radius: 15px;
+    padding: 1em;
+    margin: 1em;
 }
 
 iframe {
@@ -804,7 +806,10 @@ iframe {
 section {
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0.5rem;
-    background-color: #eee;
+    background-color: #fafafa;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 15px;
 }
 
 .list section {
@@ -1095,27 +1100,42 @@ legend>span {
   }
 
   #weather-icon {
-      max-width: 100px;
+      max-width: 150px;
+      display: block;
+      margin: auto;
     }
     
 .wel-cont-weather p {
     margin-top: 0;
+    display: block;
+    margin: auto;
 }
 #forecast-container {
     align-items: first baseline;
 }
 
 .wel-cont-child-v {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .wel-cont-child {
     display: flex;
     flex-direction: column;
+    border-top: 1px solid #000000;
 }
 
+#current-temp {
+    font-size: 2rem;
+    display: block;
+    margin: auto;
+    font-weight: 600;
+}
+
+#description {
+    align-items: center;
+    display: block;
+    margin: auto;
+}
 
 
