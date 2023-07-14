@@ -1166,4 +1166,11 @@ legend>span {
     margin-top: 10px;
   }
   
-
+  .col-lg-6 video {
+    width: 100%;
+    max-width: 420px;
+    height: 244px;
+  }
+  .event-right {
+    margin-top: 2rem;
+  }
