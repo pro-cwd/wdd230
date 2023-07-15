@@ -774,7 +774,7 @@ iframe {
 	font-weight: 700;
 }
 
-.main-grid article section {
+.main-grid div section {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
 	background-color: #eee;
@@ -835,22 +835,22 @@ section {
 	background-color: #bed;
 }
 
-.main-grid article section h3 {
+.main-grid div section h3 {
 	font-size: 1.5rem;
 }
 
-.main-grid article section p {
+.main-grid div section p {
 	font-weight: 600;
 	font-size: smaller;
 }
 
-.main-grid article section a {
+.main-grid div section a {
 	font-size: 0.85rem;
 	color: navy;
 	letter-spacing: 1.1pt;
 }
 
-.main-grid article section img {
+.main-grid div section img {
 	height: 75px;
 	max-width: 100%; /* Images are jerks - Seattle*/
 }

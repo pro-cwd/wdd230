@@ -43,32 +43,23 @@
                         <a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;">
                             <span class="slicknav_arrow">►</span>
                         </a>
-                        <ul class="drop-menu slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
-                            <li><a href="#" role="menuitem" tabindex="-1">Directorio de miembros</a></li>
-                            <li><a href="#" role="menuitem" tabindex="-1">Miembro <br>Beneficios</a></li>
-                            <li><a href="#" role="menuitem" tabindex="-1">Miembro <br>ingresar</a></li>
-                        </ul>
+                        
                     </li>
                     <li><a href="#" role="menuitem" tabindex="-1">Calendario de eventos</a></li>
                     <li class="slicknav_collapsed slicknav_parent">
                         <a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;">
                             <span class="slicknav_arrow">►</span>
                         </a>
-                        <ul class="drop-menu slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
-                            <li><a href="#" role="menuitem" tabindex="-1">Liderazgo <br>Programas</a></li>
-                            <li><a href="#" role="menuitem" tabindex="-1">red de contactos <br>Oportunidades</a></li>
-                        </ul>
                     </li>
                     <li><a href="#" role="menuitem" tabindex="-1">Donde dormir</a></li>
                     <li class="slicknav_collapsed slicknav_parent">
                         <a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;">
                             <span class="slicknav_arrow">►</span>
                         </a>
+                        
                     </li>
-                    <li><a href="#" role="menuitem" tabindex="-1">Donde comer</a></li>
-                    <li><a href="#" role="menuitem" tabindex="-1">Donde comprar</a></li>
-                    <li><a href="#" target="_blank" role="menuitem" tabindex="-1">Desarrollo económico</a></li>
-                    <li><a href="join.html" role="menuitem" tabindex="-1">Unirse a la Cámara</a></li>
+                    <li><a href="discover.html" target="_blank" role="menuitem" tabindex="-1">Descubrir</a></li>
+                    <li><a href="join.html" role="menuitem" tabindex="-1">Unirse a la Camara</a></li>
                 </ul>
             </div>
         </div>
@@ -77,13 +68,13 @@
     <header class="home-area">
         <nav class="home-left-area">
             <div class="alerts">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, illum iusto delectus quasi quo magnam pariatur vitae nam ab nobis eligendi<br> ex velit odio ut at repellendus fugiat omnis soluta.</p>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, illum iusto delectus quasi quo magnam pariatur vitae nam ab nobis eligendi<br> ex velit odio ut at repellendus fugiat omnis soluta.</p> -->
             </div>
-            <div class="home-large-logo"><img src="images/logoccm.webp" alt="Logo Cámara de Comercio la Maná"></div>
+            <div class="home-large-logo"><a href="index.html"><img src="images/logoccm.webp" alt="Logo Cámara de Comercio la Maná"></a></div>
             <div class="home-left-menu">
                 <ul>
                     <li><a href="discover.html"><i class="zmdi zmdi-caret-right"></i> Descubrir</a></li>
-                    <li><a href="#"><i class="zmdi zmdi-caret-right"></i> Directorio</a></li>
+                    <li><a href="directory.html"><i class="zmdi zmdi-caret-right"></i> Directorio</a></li>
                     <li><a href="join.html"><i class="zmdi zmdi-caret-right"></i> Unirse</a></li>
                 </ul>
             </div>
@@ -127,16 +118,7 @@
                                     <!--  Home main menu start -->
                                     <ul>
                                         <li><a href="https://members.habershamchamber.com/LODGING"><span class="menu-icon"><img src="images/icono-cama.webp" alt="icono cama"></span>Dónde <strong>Dormir</strong></a></li>
-                                        <li><a href="#"><span class="menu-icon"><img src="images/icono-ubicacion.webp" alt="icono ubicacion"></span>Qué <strong>Hacer</strong></a>
-                                            <ul class="submenu">
-                                                <li><a href="#">Caminatas</a></li>
-                                                <li><a href="#">Deporte extremo</a></li>
-                                                <li><a href="#">Agroturismo</a></li>
-                                                <li><a href="#">Ferias/Festivales</a></li>
-                                                <li><a href="#">Arte &amp; Entretenimiento</a></li>
-                                                <li><a href="#">Excursiones</a></li>
-                                            </ul>
-                                        </li>
+                                        <li><a href="#"><span class="menu-icon"><img src="images/icono-ubicacion.webp" alt="icono ubicacion"></span>Qué <strong>Hacer</strong></a></li>
                                         <li><a href="#"><span class="menu-icon"><img src="images/icono-comer.webp" alt=""></span>Dónde <strong>Comer</strong></a></li>
                                         <li><a href="#"><span class="menu-icon"><img src="images/icono-comprar.webp" alt=""></span>Dónde <strong>Comprar</strong></a></li>
                                         <li><a class="economic" href="discover.html" target="_blank"><span>Descubrir</span></a></li>
@@ -147,9 +129,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="text">Caption Text</div>
             </div>    
         </div>
+        <div id="banner" class="banner">
+            <span id="banner-text">Attend the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</span>
+            <button id="close-btn">Close</button>
+          </div>
     </header>
     <!-- home header ends -->
     <main>
@@ -199,10 +184,10 @@
                         <div class="col-md-9 offset-md-3">
                             <div class="footer-menu">
                                 <ul>
-                                    <li><a href="#">Inicio</a></li>
-                                    <li><a href="#">Directorio</a></li>
-                                    <li><a href="#">Eventos</a></li>
-                                    <li><a href="#">Únete</a></li>
+                                    <li><a href="index.html">Inicio</a></li>
+                                    <li><a href="directory.html">Directorio</a></li>
+                                    <li><a href="join.html">Unete</a></li>
+                                    <li><a href="discover.html">Descubrir</a></li>
                                 </ul>
                             </div>
                         </div>

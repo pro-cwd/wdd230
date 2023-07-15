@@ -44,8 +44,8 @@ function getMonthName(month) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  var calendarEl = document.getElementById('calendar');
-  var calendar = new FullCalendar.Calendar(calendarEl, {
+  let calendarEl = document.getElementById('calendar');
+  let calendar = new FullCalendar.Calendar(calendarEl, {
     initialView: 'dayGridMonth'
   });
   calendar.render();
@@ -59,12 +59,12 @@ timestampField.value = currentTimestamp;
 //BANNER MON - WED- FRI
 
 document.addEventListener("DOMContentLoaded", function() {
-  var banner = document.getElementById("banner");
-  var closeButton = document.getElementById("close-btn");
+  let banner = document.getElementById("banner");
+  let closeButton = document.getElementById("close-btn");
   
   // Check if current day is Monday, Tuesday, or Wednesday
-  var currentDate = new Date();
-  var currentDay = currentDate.getDay();
+  let currentDate = new Date();
+  let currentDay = currentDate.getDay();
   if (currentDay >= 1 && currentDay <= 3) {
     banner.style.display = "block";
   }

@@ -25,9 +25,11 @@ function displayResults(data) {
     let desc = data.weather[0].description
     let icon = data.weather[0].icon
     const iconsrc = `https://openweathermap.org/img/wn/${icon}@2x.png`;
-    weatherIcon.setAttribute('src', iconsrc)
-    weatherIcon.setAttribute('alt', 'clear sky')
-    captionDesc.textContent = `${desc}`
+    const image = document.createElement('img');
+    image.setAttribute('src', iconsrc);
+    image.setAttribute('alt', 'clear sky');
+    weatherIcon.appendChild(image);
+    captionDesc.textContent = `${desc}`;
 }
 
 // weather forecast
