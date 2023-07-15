@@ -314,6 +314,7 @@ a:hover h4 {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-evenly;
 }
 #weather-icon {
   width: 50px;
@@ -341,4 +342,8 @@ a:hover h4 {
 }
 #links li a:last-of-type {
   border-right: 0px;
+}
+
+span #weather-icon img {
+  display: block;
 }

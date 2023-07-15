@@ -25,7 +25,10 @@ function displayResults(data) {
     let desc = data.weather[0].description
     let icon = data.weather[0].icon
     const iconsrc = `https://openweathermap.org/img/wn/${icon}@2x.png`;
-    weatherIcon.setAttribute('src', iconsrc)
-    weatherIcon.setAttribute('alt', '- clear sky')
+    const foreImg = document.createElement('img');
+    foreImg.setAttribute('src', iconsrc)
+    foreImg.setAttribute('alt', '- clear sky')
     pDesc.textContent = `${desc}`
+
+    weatherIcon.appendChild(foreImg)
 }
