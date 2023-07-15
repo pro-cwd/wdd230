@@ -79,6 +79,8 @@
         flex: 0 0 66.666667%;
         max-width: 66.666667%;
     }
+
+
     
 }
 @media (min-width: 993px) {
@@ -138,6 +140,9 @@
     }
     #image-container {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .footer-top-area:after {
+        display: none;
     }
     
 }
